@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Clara Claudia Surbakti personal portfolio website."
+    />
+    <title>Contact | Clara Claudia Surbakti</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html"
+          >Clara Claudia <span>Surbakti</span></a
+        >
+        <button
+          class="menu-toggle"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          ☰ Menu
+        </button>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <div class="nav-item">
+            <a href="about.html" aria-expanded="false">About ▾</a>
+            <div class="dropdown">
+              <a href="about.html">Personal Profile</a
+              ><a href="education.html">Education</a
+              ><a href="about.html#values">Interests &amp; Values</a>
+            </div>
+          </div>
+          <div class="nav-item">
+            <a href="skills.html" aria-expanded="false">Skills ▾</a>
+            <div class="dropdown">
+              <a href="hard-skills.html">Hard Skills</a
+              ><a href="soft-skills.html">Soft Skills</a
+              ><a href="tools.html">Tools &amp; Software</a>
+            </div>
+          </div>
+          <div class="nav-item">
+            <a href="experience.html" aria-expanded="false">Experience ▾</a>
+            <div class="dropdown">
+              <a href="experience.html#kindergarten">Kindergarten Internships</a
+              ><a href="experience.html#fashion">Tailoring &amp; Fashion</a
+              ><a href="experience.html#hospitality">Hospitality</a>
+            </div>
+          </div>
+          <div class="nav-item">
+            <a href="portfolio.html" aria-expanded="false">Portfolio ▾</a>
+            <div class="dropdown">
+              <a href="portfolio.html#education">Early Childhood Education</a
+              ><a href="portfolio.html#fashion">Fashion &amp; Sewing</a
+              ><a href="portfolio.html#service">Customer Service</a>
+            </div>
+          </div>
+          <a class="nav-cta" href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container page-hero">
+        <div class="breadcrumbs"><a href="index.html">Home</a> / Contact</div>
+        <div class="eyebrow">Let’s connect</div>
+        <h1>Contact</h1>
+      </div>
+      <section class="page-section">
+        <div class="container contact-grid">
+          <div class="contact-card">
+            <h2>Contact Clara</h2>
+            <p>
+              You can reach me by email or connect with me on LinkedIn for
+              questions, educational opportunities, or professional connections.
+            </p>
+            <div class="contact-detail">
+              <span>Email</span
+              ><a href="mailto:clarasurbakti72@gmail.com"
+                >clarasurbakti72@gmail.com</a
+              >
+            </div>
+            <div class="contact-detail">
+              <span>LinkedIn</span
+              ><a
+                href="https://www.linkedin.com/in/clara-claudia-surbakti-63253843b/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Clara Claudia Surbakti ↗</a
+              >
+            </div>
+          </div>
+          <div class="panel">
+            <h2>Send a message</h2>
+            <form class="contact-form" id="contactForm">
+              <label
+                >Your name<input
+                  name="senderName"
+                  required
+                  autocomplete="name"
+                  placeholder="Enter your name" /></label
+              ><label
+                >Your email<input
+                  name="senderEmail"
+                  type="email"
+                  required
+                  autocomplete="email"
+                  placeholder="you@example.com" /></label
+              ><label
+                >Message<textarea
+                  name="message"
+                  required
+                  placeholder="Write your message here"
+                ></textarea></label
+              ><button class="button primary" type="submit">
+                Prepare email ↗
+              </button>
+              <p class="form-note">
+                This opens your email application with a prepared message. It
+                does not send the email automatically.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>
+          © <span data-year></span> Clara Claudia Surbakti · Personal Portfolio
+        </p>
+        <a href="index.html">Back to home ↑</a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
